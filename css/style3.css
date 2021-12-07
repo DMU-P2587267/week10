@@ -1,0 +1,3 @@
+#mytext{
+  html onclick='document.getElementById("myTxt").style.fontSize="50px"'
+}
