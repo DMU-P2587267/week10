@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html onclick='countClicks()'>
+
+<body>
+
+<p id="myTxt">Let's count clicks!</p>
+
+<script>
+   // Let's define a variable. Its initial value is 0 (0 clicks)
+   let x = 0;
+   function countClicks() {
+     // Every time we click on the button, we add '1' to the variable.
+     x = x + 1;
+     // Let's print the result!
+     document.getElementById("myTxt").innerHTML = "You have clicked " + x + " times";
+}
+</script>
+
+</body>
+
+</html>
